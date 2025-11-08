@@ -15,6 +15,13 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   use 'Mofiqul/dracula.nvim'
   use 'nvim-tree/nvim-tree.lua'
+  use 'neovim/nvim-lspconfig'
+  use "hrsh7th/nvim-cmp"
+  use "hrsh7th/cmp-nvim-lsp"
+  use "L3MON4D3/LuaSnip"
+  use "saadparwaiz1/cmp_luasnip"
+  use "williamboman/mason.nvim"
+  use "williamboman/mason-lspconfig.nvim"
   use {
 	'nvim-lualine/lualine.nvim',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
@@ -32,6 +39,6 @@ return require('packer').startup(function(use)
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then
-    require('packer').sync()
+	  require('packer').sync()
   end
 end)
