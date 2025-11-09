@@ -12,6 +12,10 @@ end
 local packer_bootstrap = ensure_packer()
 
 return require('packer').startup(function(use)
+  use {
+    "kdheepak/lazygit.nvim",
+    requires = { "nvim-lua/plenary.nvim" },
+  }
   use 'wbthomason/packer.nvim'
   use 'Mofiqul/dracula.nvim'
   use 'nvim-tree/nvim-tree.lua'

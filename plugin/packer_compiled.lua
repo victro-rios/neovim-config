@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/Users/vrios/.local/share/nvim/site/pack/packer/start/dracula.nvim",
     url = "https://github.com/Mofiqul/dracula.nvim"
   },
+  ["lazygit.nvim"] = {
+    loaded = true,
+    path = "/Users/vrios/.local/share/nvim/site/pack/packer/start/lazygit.nvim",
+    url = "https://github.com/kdheepak/lazygit.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/Users/vrios/.local/share/nvim/site/pack/packer/start/lualine.nvim",
