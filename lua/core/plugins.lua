@@ -17,7 +17,7 @@ return require('packer').startup(function(use)
     requires = { "nvim-lua/plenary.nvim" },
   }
   use 'wbthomason/packer.nvim'
-  use 'Mofiqul/dracula.nvim'
+  use 'folke/tokyonight.nvim'
   use 'nvim-tree/nvim-tree.lua'
   use 'neovim/nvim-lspconfig'
   use "hrsh7th/nvim-cmp"
