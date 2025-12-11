@@ -10,3 +10,4 @@ vim.opt.autowrite = true -- autosave
 vim.opt.showcmd = true -- show commands being executed
 vim.opt.winborder = 'rounded' -- style rounded for floating windows
 vim.keymap.set("n", "<leader>gg", ":LazyGit<CR>", { silent = true })
+vim.keymap.set("n", "<leader>ee", vim.diagnostic.open_float)
